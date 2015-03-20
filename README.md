@@ -6,11 +6,12 @@ Wrapper script for encryption/decryption of files via openssl command
 **** Test it first with some testfiles!! ****
 
 Usage       : /path/to/crypto.sh  
-              dec-write|dec-disp|enc
-              -f|--file /path/to/FILE
-              [-d|--digest digest_to_use]
-              [-c|--cipher cipher_to_use]
+              dec-write|dec-disp|enc  
+              -f|--file /path/to/FILE  
+              [-d|--digest digest_to_use]  
+              [-c|--cipher cipher_to_use]  
               [-p|--pass password]
+              
 Order of arguments is not important!
 enc         : encrypts a file
 dec-disp    : decrypts a file to a temp file, display its unencrypted content and deletes the temp file
