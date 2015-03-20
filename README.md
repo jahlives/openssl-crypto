@@ -3,7 +3,6 @@
 Wrapper script for encryption/decryption of files via openssl command
 
 **** WARNING: the enc parameter encrypts FILE and overwrites the unencrypted file with the crypted content ****
-
 **** Test it first with some testfiles!! ****
 
 Usage       : /path/to/crypto.sh
